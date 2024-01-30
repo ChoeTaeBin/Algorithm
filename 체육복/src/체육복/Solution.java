@@ -1,6 +1,11 @@
 package 체육복;
 import java.util.*;
 
+/*
+ * 20240130 프로그래머스 체육복 문제
+ * n: 총 학생 수, lost: 도난당한 학생의 수, reserve: 여벌옷이 있는 학생의 수
+ * 유튜버 개발자로 취직하기님의 영상 참고함
+ */
 class Solution {
 	public int solution(int n, int[] lost, int[] reserve) {
 		int answer = 0;
